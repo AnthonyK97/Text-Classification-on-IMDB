@@ -18,3 +18,7 @@
 * BiLSTM  
 * BiLSTM + Glove vec 
 * BiLSTM + SelfAttention  
+### Others
+* Rewrited a new Dataloader:  
+  * 原Dataloader将每一个样本都切分成一个txt文件存放样本特征，造成了大规模的文件I/O操作，大大增加了时间开销（尤其是在GPU上进行训练时）
+  * 重写的Dataloader只需要load数据预处理时已经处理好的text token tsv，不需要对train_samles和test_samples下的文件进行I/O操作。
