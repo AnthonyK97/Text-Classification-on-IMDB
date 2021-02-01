@@ -13,8 +13,8 @@
 ### Dataset  
 * IMDB  
 ### Models  
-* CNN  
-** CNN + Glove vec  
+* CNN  (Orginal From this repositories: [《20天吃掉那只PyTorch》](https://github.com/lyhue1991/eat_pytorch_in_20_days)[--《1-3 文本数据建模流程》])
+* CNN + Glove vec  
 * BiLSTM  
-** BiLSTM + Glove vec 
+* BiLSTM + Glove vec 
 * BiLSTM + SelfAttention  
