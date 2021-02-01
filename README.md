@@ -12,12 +12,14 @@
 ## 2. Have Done  
 ### Dataset  
 * IMDB  
-### Models  
+
+### Methods  
 * CNN  ( orginal from this repository: [《20天吃掉那只PyTorch》](https://github.com/lyhue1991/eat_pytorch_in_20_days)[ --《1-3 文本数据建模流程》](https://github.com/AnthonyK97/PyTorch-Tutorials-for-NLP/blob/main/1-3%20%E6%96%87%E6%9C%AC%E6%95%B0%E6%8D%AE%E5%BB%BA%E6%A8%A1IMDB(CNN).ipynb) )  
 * CNN + Glove vec  
 * BiLSTM  
 * BiLSTM + Glove vec 
 * BiLSTM + SelfAttention  
+
 ### Others
 * Rewrited a new Dataloader:  
   * 原Dataloader将每一个样本都切分成一个txt文件存放样本特征，造成了大规模的文件I/O操作，大大增加了时间开销（尤其是在GPU上进行训练时）
