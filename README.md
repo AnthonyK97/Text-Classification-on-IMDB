@@ -2,7 +2,6 @@
 
 ## 1. Guidance  
 * PyTorch Text Classification Benchmarks on IMDB Datasets 🔥  
-
 ### Dependencies  
 * pandas   
 * numpy  
@@ -14,6 +13,8 @@
 ### Dataset  
 * IMDB  
 ### Models  
-* CNN (+ Glove vec)  
-* BiLSTM (+ Glove vec)  
+* CNN  
+** CNN + Glove vec  
+* BiLSTM  
+** BiLSTM + Glove vec 
 * BiLSTM + SelfAttention  
