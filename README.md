@@ -27,5 +27,5 @@
 
 ## 3. Others 
 * glove 词向量：
- * Download: http://nlp.stanford.edu/data/glove.6B.zip 
- * 解压至glove.6B folder (主要使用glove.6B.100d.txt)
+  * Download: http://nlp.stanford.edu/data/glove.6B.zip 
+  * 解压至glove.6B folder (主要使用glove.6B.100d.txt)
