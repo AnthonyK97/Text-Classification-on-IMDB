@@ -24,7 +24,7 @@
 | Methods | accuracy  | valid accuracy |
 | :------------ |:---------------:| :-----:|
 | CNN | 0.935 | 0.808 |  
-| CNN + Glove | 0.999 | 0.88 | 
+| CNN + Glove | 0.999 | 0.880 | 
 | BiLSTM | | |  
 | BiLSTM + Glove | | |  
 | BiLSTM + SelfAttention |  |  |  
