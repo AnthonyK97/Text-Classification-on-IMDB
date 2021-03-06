@@ -20,12 +20,14 @@
 * BiLSTM + Glove vec 
 * BiLSTM + SelfAttention  
 
+
 | Methods | accuracy | valid accuracy |   
 | :------------ |:---------------:|  
 | CNN | 0.935 | 0.808 |  
 | CNN + Glove | 0.999 | 0.88 | 
 | BiLSTM | | |  
 | BiLSTM + Glove | | |
+
 
 ### 改进
 * A new Dataloader:  
