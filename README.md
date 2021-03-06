@@ -20,6 +20,13 @@
 * BiLSTM + Glove vec 
 * BiLSTM + SelfAttention  
 
+| Methods | accuracy | valid accuracy |   
+| :------------ |:---------------:|  
+| CNN | 0.935 | 0.808 |  
+| CNN + Glove | 0.999 | 0.88 | 
+| BiLSTM | | |  
+| BiLSTM + Glove | | |
+
 ### 改进
 * A new Dataloader:  
   * 原Dataloader将每一个样本都切分成一个txt文件存放样本特征，造成了大规模的文件I/O操作，大大增加了时间开销（尤其是在GPU上进行训练时）
