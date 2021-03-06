@@ -27,9 +27,7 @@
 | CNN + Glove | 0.999 | 0.88 | 
 | BiLSTM | | |  
 | BiLSTM + Glove | | |  
-| BiLSTM + SelfAttention |  |  |
-|       |    |   |
-|  | | |
+| BiLSTM + SelfAttention |  |  |  
 
 
 ### 改进
