@@ -25,6 +25,7 @@
 | :------------ |:---------------:| :-----:|
 | CNN | 0.935 | 0.808 |  
 | CNN + Glove | 0.999 | 0.880 | 
+| CNN (Multi Channel) | 0.846 | 0.814 |
 | BiLSTM | | |  
 | BiLSTM + Glove | | |  
 | BiLSTM + SelfAttention |  |  |  
